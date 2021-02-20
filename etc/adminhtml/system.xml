@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="product_message_tab" translate="label" class="product-message-tab" sortOrder="10">
+            <label>Product Message</label>
+        </tab>
+
+        <section id="product_message_section" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="10" translate="label">
+            <label>General</label>
+            <tab>product_message_tab</tab>
+            <resource>Aly_ProductMessage::general</resource>
+
+            <group id="product_message_group" translate="label comment" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+
+                <field id="product_message_message" translate="label comment" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" type="text">
+                    <label>Message</label>
+                    <tooltip>Message to show below product price</tooltip>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
