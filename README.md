@@ -3,7 +3,7 @@ Magento 2 module to add message after products prices
 
 ## How to install:
 
-1 => Clone the repository in this path: magento_dir/app/code/Aly/*here*
+1 => Clone the repository in this path: magento_dir/app/code/Aly/
 
 2 => After clone, in your magento root directory you need run the follow commands:
 
