@@ -6,6 +6,7 @@ Magento 2 module to add custom message below products prices
 1 => Clone the repository in this path: magento_dir/app/code/Aly/*here*
 
 2 => After clone, in your magento root directory you need run the follow commands:
+
   bin/magento setup:upgrade
   
   bin/magento setup:di:compile
