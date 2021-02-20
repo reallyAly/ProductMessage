@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <body>
+        <referenceContainer name="content">
+            <referenceBlock name="product.info.main">
+                <block
+                        class="Aly\ProductMessage\Block\Product\Message"
+                        after="product.info.price"
+                        template="Aly_ProductMessage::message/product-message.phtml" />
+            </referenceBlock>
+        </referenceContainer>
+    </body>
+</page>

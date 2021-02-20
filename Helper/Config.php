@@ -53,6 +53,6 @@ class Config extends AbstractHelper
      */
     public function getGeneralConfig($code, $storeId = 0)
     {
-        return $this->getConfigValue(self::XML_PATH_COUPON.'product_message_group/'.$code, $storeId);
+        return $this->getConfigValue(self::XML_PATH_PRODUCT.'product_message_group/'.$code, $storeId);
     }
 }
