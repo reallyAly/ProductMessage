@@ -1,5 +1,5 @@
 # ProductMessage
-Magento 2 module to add custom message below products prices
+Magento 2 module to add message after products prices
 
 ## How to install:
 
